@@ -1,0 +1,184 @@
+ #logo1{
+
+ 	top: -900px;
+  float: right;
+  right: 108px;
+   position: ;
+
+
+ }
+#menu{
+	  position: absolute;
+  top: -465px;
+  right: -1000px;
+}
+
+
+.list_menu{
+	-webkit-border-top-left-radius: 100px;
+-webkit-border-bottom-left-radius: 100px;
+-moz-border-radius-topleft: 100px;
+-moz-border-radius-bottomleft: 100px;
+border-top-left-radius: 100px;
+border-bottom-left-radius: 100px;
+	-webkit-box-shadow: -4px 10px 24px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 10px 24px -3px rgba(0,0,0,0.75);
+box-shadow: -4px 10px 24px -3px rgba(0,0,0,0.75);
+	list-style: none;
+	
+height: 50px;
+
+}
+
+.numbers{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #df3947;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.texto_menu{
+
+font-weight: bold;
+text-align: center;
+ font-size: 20px;
+}
+.texto_menu p{
+	color: #fa6135;
+	  padding-top: 10px;
+}
+ul li{
+	padding: 3px;
+	margin-bottom: 11px;
+  cursor: pointer;
+}
+
+#numbers2{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #fa6135;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+#numbers3{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #3eb69d;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+#numbers4{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #f4c827;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+#numbers4{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #f4c827;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+
+
+#numbers5{
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #2f963b;
+height: 40px;
+
+text-align: center;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+
+#numbers6 {
+border-radius: 200px;
+
+
+border-radius: 200px;
+background: #3065cf;
+height: 40px;
+
+text-align: ;;
+color: #fff;
+font-weight: bold;
+  font-size: 25px;
+}
+
+.texto_menu p { 
+  font-size: 13pt; 
+}
+
+#todo_menu{
+
+	top: 153px;
+ 
+}
+
+#Logo2{
+	top: -0px;
+}
+
+#seleccion{
+
+	position: absolute;
+	  right: 110px;
+  top: 237px;
+}
+#Logo3{
+
+	position: absolute;
+    right: 330px;
+    top: 530px;
+
+	   }
+#Logo4{
+
+	position: absolute;
+    right: 120px;
+    top: 510px;
+
+	   }

@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $(".two").hide();
+  $(".three").hide();
+  $('#one-1').click(function(){
+    console.log($('.three').html())
+    $(".one").show();
+    $(".two").hide();
+    $(".three").hide();
+  });
+  $('#one-2').click(function(){
+    console.log('hola')
+    $(".one").hide();
+    $(".two").show();
+    $(".three").hide();
+  });
+  $('#one-3').click(function(){
+    console.log('hola')
+    $(".one").hide();
+    $(".two").hide();
+    $(".three").show();
+  });
+});
