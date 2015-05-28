@@ -1,0 +1,216 @@
+#topic{
+  background-color: #d53e42;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 174px 0px 0px 174px;
+  -moz-border-radius: 174px 0px 0px 174px;
+  -webkit-border-radius: 174px 0px 0px 174px;
+  border: 0px solid #000000;
+  padding:10px;
+}
+#circulo-1{
+  -webkit-border-radius: 900px;
+  -moz-border-radius: 900px;
+  border-radius: 900px;
+  background-color: #d53e42;
+  height:900px;
+  width: 900px;
+  position: relative;
+  left: -496px;
+  bottom: 0px;
+}
+#circulo-2{
+  -webkit-border-radius: 900px;
+  -moz-border-radius: 900px;
+  border-radius: 900px;
+  /*background-color: red;*/
+  height:700px;
+  width: 700px;
+  position: absolute;
+  left: 105px;
+  top: 80px;
+  background: #671e20; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #671e20 13%, #671e20 44%, #d53e42 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(13%,#671e20), color-stop(44%,#671e20), color-stop(99%,#d53e42)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg, #671e20 13%,#671e20 44%,#d53e42 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, #671e20 13%,#671e20 44%,#d53e42 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #671e20 13%,#671e20 44%,#d53e42 99%); /* IE10+ */
+  background: linear-gradient(45deg, #671e20 13%,#671e20 44%,#d53e42 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#671e20', endColorstr='#d53e42',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#circulo-3{
+  -webkit-border-radius: 900px;
+  -moz-border-radius: 900px;
+  border-radius: 900px;
+  background-color: white;
+  height:600px;
+  width: 600px;
+  position: absolute;
+  left: 40px;
+  bottom: 45px;
+}
+#one-1{
+  top: 100px;
+  left: 125px;
+}
+#one-2{
+  top: 220px;
+  left: 240px;
+}
+#one-3{
+  top: 345px;
+  left: 295px;
+  width: 90px;
+  text-align: center;
+}
+@media (max-width:1020px) {
+  #circulo-1{
+    height:800px;
+    width: 800px;
+    left: -430px;
+    bottom: 0px;
+  }
+  #circulo-2{
+    height:600px;
+    width: 600px;
+    left: 105px;
+    top: 80px;
+  }
+  #circulo-3{
+    height:500px;
+    width: 500px;
+    left: 40px;
+    bottom: 45px;
+  }
+  .circle-dad{
+    height:500px;
+  }
+  #man{
+    top: 50px;
+    left: 280px;
+    width: 150px;
+  }
+  #one-1{
+    left: 100px;
+  }
+  #one-3{
+    left: 275px;
+  }
+  #main_content{
+    font-size: 17px;
+  }
+}
+@media (max-width:938px){
+  #circulo-1{
+    height:600px;
+    width: 600px;
+    left: -291px;
+    bottom: -25px;
+  }
+  #circulo-2{
+    height:400px;
+    width: 400px;
+    left: 105px;
+    top: 80px;
+  }
+  #circulo-3{
+    height:300px;
+    width: 300px;
+    left: 40px;
+    bottom: 45px;
+  }
+  .circle-dad{
+    height:430px;
+    top:70px;
+  }
+  #man{
+    top: 40px;
+    left: 150px;
+    width: 99px;
+  }
+  .opt-menu{
+    font-size: 16px;
+  }
+  #one-2{
+    left: 175px;
+    top:165px;
+  }
+  #one-3{
+    left: 210px;
+    top: 235px;
+  }
+  #topic{
+    font-size: 25px;
+  }
+  #main_content{
+    font-size: 14px;
+  }
+}
+@media (max-width:792px) {
+  #head3, #head2{
+    font-size: 40px;
+  }
+  #head1{
+    font-size: 65px;
+  }
+  #circulo-1{
+    height:500px;
+    width: 500px;
+    left: -243px;
+    bottom: -115px;
+  }
+  #circulo-2{
+    height:320px;
+    width: 320px;
+    left: 109px;
+    top: 69px;
+  }
+  #circulo-3{
+    height:215px;
+    width: 215px;
+    left: 40px;
+    bottom: 45px;
+    left: 49px;
+    bottom: 42px;
+  }
+  .circle-dad{
+    height:425px;
+  }
+  #man{
+    top: 20px;
+    left: 95px;
+    width: 75px;
+  }
+  #main_content{
+    margin-top: 30px;
+  }
+  #topic{
+    font-size: 20px;
+  }
+  .opt-menu{
+    font-size: 14px;
+  }
+  #one-1{
+    left: 80px;
+    top: 170px;
+  }
+  #one-2{
+    left: 140px;
+    top:210px;
+  }
+  #one-3{
+    left: 176px;
+    top: 285px;
+    width: 65px;
+  }
+  #main_content{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:700px) {
+  body{
+    width:700px;
+  }
+}
