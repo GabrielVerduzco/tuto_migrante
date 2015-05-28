@@ -2,21 +2,21 @@ $(document).ready(function(){
   $(".two").hide();
   $(".three").hide();
   $('#one-1').click(function(){
-    console.log($('.three').html())
     $(".one").show();
     $(".two").hide();
     $(".three").hide();
+    $('#man').attr('src','Elementos png/Movimientos personaje/P1.png');
   });
   $('#one-2').click(function(){
-    console.log('hola')
     $(".one").hide();
     $(".two").show();
     $(".three").hide();
+    $('#man').attr('src','Elementos png/Movimientos personaje/P2.png');
   });
   $('#one-3').click(function(){
-    console.log('hola')
     $(".one").hide();
     $(".two").hide();
     $(".three").show();
+    $('#man').attr('src','Elementos png/Movimientos personaje/P3.png');
   });
 });
