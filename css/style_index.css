@@ -90,8 +90,8 @@ font-weight: bold;
 }
 
 #numbers4{
-border-radius: 200px;
-
+border-radius: 210px;
+width: 
 
 border-radius: 200px;
 background: #f4c827;
@@ -158,6 +158,13 @@ font-weight: bold;
  
 }
 
+#logo1{
+  position: absolute;
+  top: 10px;
+    right: -312px;
+
+}
+
 #Logo2{
 	top: -0px;
 }
@@ -182,3 +189,349 @@ font-weight: bold;
     top: 510px;
 
 	   }
+
+@media (max-width:1179px) {
+
+.texto_menu p{
+    
+    font-size: 11px;
+    
+}
+}
+
+@media (max-width:1268px) {
+
+.texto_menu p{
+    
+    font-size: 14px;
+    
+}
+}
+
+
+@media (max-width:1179px) {
+#Logo3{
+
+  position: absolute;
+    right: 330px;
+    top: 446px;
+
+     }
+#todo_menu{
+  top:128px;
+}
+#Logo4{
+  top: 428px;
+}
+.texto_menu p{
+    
+    font-size: 13px;
+    
+}
+}
+
+
+
+@media (max-width:1196px) {
+#Logo3{
+
+  position: absolute;
+    right: 330px;
+    top: 446px;
+
+     }
+#todo_menu{
+  top:118px;
+}
+#Logo4{
+  top: 428px;
+}
+.texto_menu p{
+    
+    font-size: 15px;
+    
+}
+}
+
+
+
+@media (max-width:1238px) {
+#Logo3{
+
+  position: absolute;
+    right: 330px;
+    top: 502px;
+
+     }
+#todo_menu{
+  top:127px;
+}
+#Logo4{
+  top: 478px;
+}
+
+  }
+
+
+@media (max-width:1106px) {
+#Logo3{
+
+  position: absolute;
+    right: 330px;
+    top: 446px;
+
+     }
+#todo_menu{
+  top:73px;
+}
+#Logo4{
+  top: 428px;
+}
+.texto_menu p{
+    
+    font-size: 13px;
+    
+}
+
+  }
+
+  @media (max-width:1170px) {
+#Logo3{
+
+  position: absolute;
+    right: 330px;
+    top: 478px;
+
+     }
+#todo_menu{
+  top:103px;
+}
+#Logo4{
+  top: 456px;
+}
+.texto_menu p{
+    
+    font-size: 13px;
+    
+}
+
+  }
+
+
+  @media (max-width:1119px) {
+#Logo3{
+
+      top: 449px;
+    
+
+     }
+#todo_menu{
+  top:81px;
+}
+#Logo4{
+  top: 433px;
+}
+.texto_menu p{
+    
+    font-size: 14px;
+    
+}
+
+  }
+
+@media (max-width:1119px) {
+  #Logo3{
+    top: 449px;
+  }
+  #todo_menu{
+    top:81px;
+  }
+  #Logo4{
+    top: 433px;
+  }
+  .texto_menu p{    
+    font-size: 14px; 
+                
+  }
+}
+
+
+@media (max-width:1042px) {
+  #Logo3{
+    top: 416px;
+  }
+  #todo_menu{
+    top:43px;
+  }
+  #Logo4{
+    top: 405px;
+  }
+  .texto_menu p{    
+    font-size: 14px; 
+                
+  }
+}
+
+
+@media (max-width:1042px) {
+  #Logo3{
+    top: 416px;
+  }
+  #todo_menu{
+    top:43px;
+  }
+  #Logo4{
+    top: 405px;
+  }
+  .texto_menu p{    
+    font-size: 14px; 
+                
+  }
+}
+
+@media (max-width:967px) {
+  #Logo3{
+    top: 401px;
+  right: 269px;
+    }
+  #todo_menu{
+    top:21px;
+  }
+  #Logo4{
+    top: 384px;
+  }
+  .texto_menu p{    
+    font-size: 14px; 
+                
+  }
+  #logo1 {
+  position: absolute;
+  top: 30px;
+  right: -272px;
+}
+}
+@media (max-width:927px) {
+  #Logo3{
+    top: 376px;
+  right: 269px;
+    }
+  #todo_menu{
+    top:3px;
+  }
+  #Logo4{
+    top: 364px;
+  }
+  .texto_menu p{    
+    font-size: 14px; 
+                
+  }
+  #logo1 {
+  position: absolute;
+  top: 30px;
+  right: -272px;
+}
+#Logo2 {
+  top: -17px;
+}
+}
+
+@media (max-width:913px) {
+  #Logo3{
+    top: 376px;
+  right: 269px;
+    }
+  #todo_menu{
+    top:3px;
+  }
+  #Logo4{
+    top: 364px;
+  }
+  .texto_menu p{    
+    font-size: -20px; 
+                
+  }
+  #logo1 {
+  position: absolute;
+  top: 30px;
+  right: -272px;
+}
+#Logo2 {
+  top: -27px;
+}
+}
+
+@media (max-width:868px) {
+  #Logo3{
+    top: 354px;
+  
+    }
+  #todo_menu{
+    top:-13px;
+  }
+  #Logo4{
+    top: 341px;
+  }
+  .texto_menu p{    
+    font-size: -14px; 
+                
+  }
+  #logo1 {
+  display: none}
+#Logo2 {
+  top: -27px;
+}
+}
+
+@media (max-width:849px) {
+  #Logo3{
+    top: 354px;
+  
+    }
+  #todo_menu{
+    top:-13px;
+  }
+  #Logo4{
+    top: 341px;
+  }
+  .texto_menu p{    
+    display: none;
+                
+  }
+  #logo1 {
+  display: none}
+#Logo2 {
+  top: -27px;
+  right: -6px;
+}
+}
+
+@media (max-width:825px) {
+  #Logo3{
+    top: 325px;
+  
+    }
+  #todo_menu{
+    top:-1px;
+  }
+  #Logo4{
+    top: 316px;
+  }
+#Logo2 {
+  display: none;
+}
+#seleccion {
+  position: absolute;
+  right: 110px;
+  top: 155px;
+}
+
+}
+
+
+
+
+
+
+
+
+
