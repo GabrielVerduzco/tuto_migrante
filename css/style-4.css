@@ -1,5 +1,5 @@
 #topic{
-  background-color: #d53e42;
+  background-color: #f4c827;
   color: white;
   font-size: 30px;
   font-weight: bolder;
@@ -13,7 +13,7 @@
   -webkit-border-radius: 900px;
   -moz-border-radius: 900px;
   border-radius: 900px;
-  background-color: #d53e42;
+  background-color: #f4c827;
   height:900px;
   width: 900px;
   position: relative;
@@ -30,14 +30,14 @@
   position: absolute;
   left: 105px;
   top: 80px;
-  background: #691e20; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #691e20 1%, #d53e42 44%, #d53e42 74%, #691e20 99%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#691e20), color-stop(44%,#d53e42), color-stop(74%,#d53e42), color-stop(99%,#691e20)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #691e20 1%,#d53e42 44%,#d53e42 74%,#691e20 99%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #691e20 1%,#d53e42 44%,#d53e42 74%,#691e20 99%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #691e20 1%,#d53e42 44%,#d53e42 74%,#691e20 99%); /* IE10+ */
-  background: linear-gradient(135deg,  #691e20 1%,#d53e42 44%,#d53e42 74%,#691e20 99%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#691e20', endColorstr='#691e20',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #715b15; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #715b15 1%, #f7c82d 44%, #f7c82d 74%, #715b15 99%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#715b15), color-stop(44%,#f7c82d), color-stop(74%,#f7c82d), color-stop(99%,#715b15)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #715b15 1%,#f7c82d 44%,#f7c82d 74%,#715b15 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #715b15 1%,#f7c82d 44%,#f7c82d 74%,#715b15 99%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #715b15 1%,#f7c82d 44%,#f7c82d 74%,#715b15 99%); /* IE10+ */
+  background: linear-gradient(135deg,  #715b15 1%,#f7c82d 44%,#f7c82d 74%,#715b15 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715b15', endColorstr='#715b15',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 #circulo-3{
   -webkit-border-radius: 900px;
@@ -50,19 +50,26 @@
   left: 40px;
   bottom: 45px;
 }
-#one-1{
+#three-1{
   top: 100px;
   left: 125px;
+  width: 135px;
 }
-#one-2{
+#three-2{
   top: 220px;
   left: 240px;
+  width: 105px;
+  text-align: center;
 }
-#one-3{
+#three-3{
   top: 345px;
-  left: 295px;
+  left: 265px;
   width: 90px;
   text-align: center;
+}
+#main_content{
+  margin-top: 40px;
+  font-size: 17px;
 }
 @media (max-width:1020px) {
   #circulo-1{
@@ -91,14 +98,23 @@
     left: 280px;
     width: 150px;
   }
-  #one-1{
-    left: 100px;
+  #three-1{
+    left: 80px;
+    top: 70px;
   }
-  #one-3{
-    left: 275px;
+  #three-2{
+    left: 195px;
+    top: 160px;
+  }
+  #three-3{
+    left: 218px;
+    top: 275px;
   }
   #main_content{
-    font-size: 17px;
+    font-size: 15px;
+  }
+  #topic{
+    font-size:25px;
   }
 }
 @media (max-width:938px){
@@ -132,19 +148,25 @@
   .opt-menu{
     font-size: 16px;
   }
-  #one-2{
-    left: 175px;
-    top:165px;
+  #three-1{
+    left: 70px;
+    top: 80px;
+    width: 106px;
   }
-  #one-3{
-    left: 210px;
-    top: 235px;
+  #three-2{
+    left: 150px;
+    top: 160px;
+  }
+  #three-3{
+    left: 185px;
+    top: 250px;
   }
   #topic{
-    font-size: 25px;
+    font-size: 20px;
   }
   #main_content{
-    font-size: 14px;
+    font-size: 13px;
+    margin-top:30px;
   }
 }
 @media (max-width:792px) {
@@ -186,23 +208,22 @@
     margin-top: 30px;
   }
   #topic{
-    font-size: 20px;
+    font-size: 18px;
   }
   .opt-menu{
     font-size: 14px;
   }
-  #one-1{
-    left: 80px;
-    top: 170px;
+  #three-1{
+    left: 60px;
+    top: 160px;
   }
-  #one-2{
-    left: 140px;
-    top:210px;
+  #three-2{
+    left: 110px;
+    top: 220px;
   }
-  #one-3{
-    left: 176px;
-    top: 285px;
-    width: 65px;
+  #three-3{
+    left: 150px;
+    top: 305px;
   }
   #main_content{
     font-size: 13px;
