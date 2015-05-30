@@ -529,6 +529,12 @@ font-weight: bold;
 
 
 
+@media (max-width:700px) {
+  body{
+    width:700px;
+  }
+}
+
 
 
 
