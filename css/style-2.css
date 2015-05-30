@@ -83,8 +83,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 #imag_num{
 
   right: -92px;
+
 }
 
+#imag_num2{
+
+  right: -46px;
+  top: 30px;
+  
+}
 
 @media (max-width:1020px) {
   #circulo-1{
@@ -116,12 +123,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
   #one-1{
     left: 100px;
   }
-  #one-3{
-    left: 275px;
-  }
+ #one-3 {
+  left: 250px;
+  top: 241px;
+}
   #main_content{
     font-size: 17px;
   }
+
+#one-4 {
+  top: 352px;
+  left: 237px;
+}
+
+#one-5 {
+  top: 424px;
+  left: 257px;
+  width: 1px;
+}
+
+  #one-2 {
+  top: 156px;
+  left: 182px;
+}
+
+
 }
 @media (max-width:938px){
   #circulo-1{
@@ -166,9 +192,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
     font-size: 25px;
 
   }
+  .negras{
+  font-weight: 900;
+  }
   #main_content{
     font-size: 14px;
   }
+
+  #one-4 {
+  top: 318px;
+  left: 197px;
+}
+#one-5 {
+  top: 377px;
+  left: 202px;
+  width: 1px;
+}
 }
 @media (max-width:792px) {
   #head3, #head2{
@@ -231,6 +270,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
   #main_content{
     font-size: 13px;
   }
+  #one-5 {
+  top: 377px;
+  left: 178px;
+  width: 1px;
+}
+#one-4 {
+  top: 333px;
+  left: 166px;
+}
+#one-3 {
+  left: 176px;
+  top: 268px;
+  width: 65px;
+}
 }
 
 @media (max-width:700px) {
