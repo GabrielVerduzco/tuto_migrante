@@ -50,18 +50,18 @@
   left: 40px;
   bottom: 45px;
 }
-#three-1{
+#one-1{
   top: 100px;
   left: 125px;
   width: 135px;
 }
-#three-2{
+#one-2{
   top: 220px;
   left: 240px;
   width: 105px;
   text-align: center;
 }
-#three-3{
+#one-3{
   top: 345px;
   left: 265px;
   width: 90px;
@@ -70,6 +70,9 @@
 #main_content{
   margin-top: 40px;
   font-size: 17px;
+}
+#main_content div{
+  padding: 0px;
 }
 @media (max-width:1020px) {
   #circulo-1{
@@ -98,15 +101,15 @@
     left: 280px;
     width: 150px;
   }
-  #three-1{
+  #one-1{
     left: 80px;
     top: 70px;
   }
-  #three-2{
+  #one-2{
     left: 195px;
     top: 160px;
   }
-  #three-3{
+  #one-3{
     left: 218px;
     top: 275px;
   }
@@ -148,16 +151,16 @@
   .opt-menu{
     font-size: 16px;
   }
-  #three-1{
+  #one-1{
     left: 70px;
     top: 80px;
     width: 106px;
   }
-  #three-2{
+  #one-2{
     left: 150px;
     top: 160px;
   }
-  #three-3{
+  #one-3{
     left: 185px;
     top: 250px;
   }
@@ -213,15 +216,15 @@
   .opt-menu{
     font-size: 14px;
   }
-  #three-1{
+  #one-1{
     left: 60px;
     top: 160px;
   }
-  #three-2{
+  #one-2{
     left: 110px;
     top: 220px;
   }
-  #three-3{
+  #one-3{
     left: 150px;
     top: 305px;
   }
