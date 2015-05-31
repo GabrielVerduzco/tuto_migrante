@@ -67,10 +67,6 @@
   width: 90px;
   text-align: center;
 }
-#main_content{
-  margin-top: 40px;
-  font-size: 17px;
-}
 #main_content div{
   padding: 0px;
 }
@@ -114,7 +110,7 @@
     top: 275px;
   }
   #main_content{
-    font-size: 15px;
+    font-size: 17px;
   }
   #topic{
     font-size:25px;
@@ -168,8 +164,7 @@
     font-size: 20px;
   }
   #main_content{
-    font-size: 13px;
-    margin-top:30px;
+    font-size: 14px;
   }
 }
 @media (max-width:792px) {
@@ -207,9 +202,6 @@
     left: 95px;
     width: 75px;
   }
-  #main_content{
-    margin-top: 30px;
-  }
   #topic{
     font-size: 18px;
   }
@@ -218,11 +210,11 @@
   }
   #one-1{
     left: 60px;
-    top: 160px;
+    top: 170px;
   }
   #one-2{
-    left: 110px;
-    top: 220px;
+    left: 120px;
+    top: 240px;
   }
   #one-3{
     left: 150px;
