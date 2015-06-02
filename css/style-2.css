@@ -20,6 +20,18 @@
   left: -496px;
   bottom: 0px;
 }
+.age{
+    right: 116px;
+  top: -434px;
+
+}
+@media (max-width:1002px){
+
+  .age{
+    display: none;
+  }
+
+}
 #circulo-2{
   -webkit-border-radius: 900px;
   -moz-border-radius: 900px;

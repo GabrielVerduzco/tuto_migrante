@@ -145,6 +145,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#183061', end
     font-size:25px;
   }
 }
+
+@media (max-width:1002px){
+
+  .age{
+    display: none;
+  }
+
+}
 @media (max-width:938px){
 
   .age{
