@@ -1,5 +1,5 @@
 #topic{
-  background-color: #fa6135;
+  background-color: #ef5f24;
   color: white;
   font-size: 30px;
   font-weight: bolder;
@@ -13,7 +13,7 @@
   -webkit-border-radius: 900px;
   -moz-border-radius: 900px;
   border-radius: 900px;
-  background-color: #e35a22;
+  background-color: #ef5f24;
   height:900px;
   width: 900px;
   position: relative;
@@ -102,7 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 
   right: -46px;
   top: 30px;
-  
+
 }
 
 @media (max-width:1020px) {
@@ -258,7 +258,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
   }
   #main_content{
     margin-top: 64px;
-   
+
   }
   #topic{
     font-size: 20px;
