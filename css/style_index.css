@@ -55,115 +55,20 @@ text-align: center;
 	color: #fa6135;
 	  padding-top: 10px;
 }
+
+.texto_menu{
+    right: -48px;
+  top: 8px;
+}
 ul li{
 	padding: 3px;
 	margin-bottom: 11px;
   cursor: pointer;
 }
 
-#numbers2{
-border-radius: 200px;
-
-top: 8px;
-border-radius: 200px;
-background: #fa6135;
-height: 40px;
-
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-#numbers1{
-border-radius: 200px;
-
-top: 8px;
-border-radius: 200px;
-background: #df3947;
-height: 40px;
-
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-
-
-#numbers3{
-border-radius: 200px;
-top: 8px;
-
-border-radius: 200px;
-background: #3eb69d;
-height: 40px;
-
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-
-#numbers4{
-border-radius: 210px;
-width: 
-top: 8px;
-border-radius: 200px;
-background: #f4c827;
-height: 40px;
-
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-
-#numbers4{
-border-radius: 200px;
-top: 8px;
-
-border-radius: 200px;
-background: #f4c827;
-height: 40px;
-
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-
-
-
-#numbers5{
-border-radius: 200px;
-
-
-border-radius: 200px;
-background: #2f963b;
-height: 40px;
-top: 8px;
-text-align: center;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
-
-
-#numbers6 {
-border-radius: 200px;
-top: 8px;
-
-border-radius: 200px;
-background: #3065cf;
-height: 40px;
-
-text-align: ;;
-color: #fff;
-font-weight: bold;
-  font-size: 25px;
-}
 
 .texto_menu p { 
-  font-size: 13pt; 
+  font-size: 10pt; 
 }
 
 #todo_menu{
@@ -179,8 +84,11 @@ font-weight: bold;
 
 }
 
-#Logo2{
-	top: -0px;
+#Logo2_1{
+  position: absolute;
+  right: 259px;
+  top: 529px;
+
 }
 
 #seleccion{
@@ -189,20 +97,36 @@ font-weight: bold;
 	  right: 110px;
   top: 237px;
 }
-#Logo3{
+#Logo3_1{
 
 	position: absolute;
-    right: 330px;
+    right: 456px;
     top: 530px;
 
 	   }
-#Logo4{
+#Logo4_1{
 
-	position: absolute;
-    right: 120px;
-    top: 510px;
+	  position: absolute;
+  right: 85px;
+  top: 517px;
+
 
 	   }
+
+
+    #logo5_1{
+        position: absolute;
+  top: 504px;
+  right: 187px;
+}
+
+   #logo6_1{
+    position: absolute;
+  top: 475px;
+  right: 38px;
+}
+
+    }
 
 @media (max-width:1179px) {
 
@@ -246,7 +170,7 @@ font-weight: bold;
 
 
 
-@media (max-width:1196px) {
+@media (max-width:1164px) {
 #Logo3{
 
   position: absolute;
@@ -265,42 +189,174 @@ font-weight: bold;
     font-size: 15px;
     
 }
+
+#logo6_1{
+
+  top:439px;
+
+
+}
+
+#logo5_1{
+
+  top:472px;
+
+
+}
+
+#Logo3_1 {
+  position: absolute;
+  right: 443px;
+  top: 493px;
+}
+
+#Logo4_1 {
+  position: absolute;
+  right: 85px;
+  top: 478px;
+}
+
+#Logo2_1 {
+  position: absolute;
+  right: 259px;
+  top: 490px;
+}
+
 }
 
 
 
 @media (max-width:1238px) {
-#Logo3{
 
-  position: absolute;
-    right: 330px;
-    top: 502px;
-
-     }
 #todo_menu{
   top:127px;
 }
-#Logo4{
-  top: 478px;
-}
+
 
   }
 
 
-@media (max-width:1106px) {
-#Logo3{
+@media (max-width:1110px) {
 
+
+
+#Logo2_1 {
   position: absolute;
-    right: 330px;
-    top: 446px;
+  right: 259px;
+  top: 466px;
+}
+#Logo3_1{
+
+   position: absolute;
+  right: 412px;
+  top: 468px;
 
      }
-#todo_menu{
-  top:73px;
+#Logo4_1{
+
+    position: absolute;
+  right: 85px;
+  top: 454px;
+ }
+#logo5_1{
+  position: absolute;
+  top: 443px;
+  right: 187px;
 }
-#Logo4{
-  top: 428px;
+
+ #logo6_1{
+ position: absolute;
+  top: 422px;
+  right: 38px;
 }
+}
+
+
+@media (max-width:1023px) {
+
+#Logo2_1 {
+  position: absolute;
+  right: 272px;
+  top: 432px;
+}
+#Logo3_1{
+
+     position: absolute;
+  right: 390px;
+  top: 431px;
+
+     }
+#Logo4_1{
+
+  position: absolute;
+  right: 133px;
+  top: 425px;
+ }
+#logo5_1{
+  position: absolute;
+  top: 443px;
+  right: 187px;
+}
+
+ #logo6_1{
+ position: absolute;
+  top: 422px;
+  right: 38px;
+}
+
+#side-menu {
+  margin-top: 15px;
+  top: -33px;
+}
+
+
+}
+
+
+
+@media (max-width:959px) {
+
+#Logo2_1 {
+  position: absolute;
+  right: 250px;
+  top: 397px;
+}
+
+
+#Logo3_1 {
+  position: absolute;
+  right: 362px;
+  top: 398px;
+}
+#Logo4_1 {
+  position: absolute;
+  right: 133px;
+  top: 389px;
+}
+#logo5_1{
+  position: absolute;
+  top: 443px;
+  right: 187px;
+}
+
+ #logo6_1{
+ position: absolute;
+  top: 422px;
+  right: 38px;
+}
+
+#side-menu {
+  margin-top: 15px;
+  top: -67px;
+}
+
+.texto_menu{
+  font-size: 8px;
+}
+
+
+}
+
 .texto_menu p{
     
     font-size: 13px;
@@ -386,6 +442,53 @@ font-weight: bold;
   }
 }
 
+@media (max-width:1055px) {
+  #Logo3{
+    top: 416px;
+  }
+  #todo_menu{
+    top:43px;
+  }
+  #Logo4{
+    top: 405px;
+  }
+  .texto_menu p{    
+    font-size: 12px; 
+                
+  }
+  .texto_menu {
+  right: -29px;
+  top: 8px;
+}
+}
+
+
+
+@media (max-width:1006px) {
+  #Logo3{
+    top: 416px;
+  }
+  #todo_menu{
+    top:43px;
+  }
+  #Logo4{
+    top: 405px;
+  }
+  .texto_menu p{    
+    font-size: 5px; 
+                
+  }
+  .texto_menu {
+  right: -29px;
+  top: 8px;
+}
+}
+
+@media (max-width: 1119px){
+.texto_menu p {
+  font-size: 11px;
+}
+}
 
 @media (max-width:1042px) {
   #Logo3{
@@ -397,11 +500,13 @@ font-weight: bold;
   #Logo4{
     top: 405px;
   }
-  .texto_menu p{    
-    font-size: 14px; 
-                
-  }
+ 
 }
+
+
+@media (max-width:967px) {
+
+  }
 
 @media (max-width:967px) {
   #Logo3{
@@ -414,11 +519,7 @@ font-weight: bold;
   #Logo4{
     top: 384px;
   }
-  .texto_menu p{    
-    font-size: 14px; 
-                
-  }
-  #logo1 {
+    #logo1 {
   position: absolute;
   top: 30px;
   right: -272px;
@@ -439,11 +540,7 @@ font-weight: bold;
   #Logo4{
     top: 364px;
   }
-  .texto_menu p{    
-    font-size: 14px; 
-                
-  }
-  #logo1 {
+    #logo1 {
   position: absolute;
   top: 30px;
   right: -272px;
@@ -451,6 +548,7 @@ font-weight: bold;
 #Logo2 {
   top: -17px;
 }
+
 }
 
 @media (max-width:913px) {
@@ -478,6 +576,43 @@ font-weight: bold;
 }
 }
 
+@media (max-width:913px) {
+ 
+
+
+#Logo3_1 {
+  position: absolute;
+  right: 315px;
+  top: 345px;
+}
+#Logo2_1 {
+  position: absolute;
+  right: 229px;
+  top: 345px;
+}
+
+#Logo4_1 {
+  position: absolute;
+  right: 133px;
+  top: 339px;
+}
+#logo5_1 {
+  position: absolute;
+  top: 398px;
+  right: 259px;
+}
+
+#logo6_1 {
+  position: absolute;
+  top: 380px;
+  right: 175px;
+}
+
+
+
+
+ }
+
 @media (max-width:868px) {
   #Logo3{
     top: 354px;
@@ -498,52 +633,80 @@ font-weight: bold;
 #Logo2 {
   top: -27px;
 }
+
+
 }
 
 @media (max-width:849px) {
-  #Logo3{
-    top: 354px;
-  
-    }
+
   #todo_menu{
     top:-13px;
   }
-  #Logo4{
-    top: 341px;
-  }
-  .texto_menu p{    
+   .texto_menu p{    
     display: none;
-                
-  }
-  #logo1 {
-  display: none}
-#Logo2 {
-  top: -27px;
-  right: -6px;
 }
+
+#logo5_1 {
+  position: absolute;
+  top: 356px;
+  right: 259px;
+  }
+  #logo6_1 {
+  position: absolute;
+  top: 342px;
+  right: 175px;
+}
+#side-menu{
+  top: -24px;
+}
+
 }
 
 @media (max-width:825px) {
-  #Logo3{
-    top: 325px;
-  
-    }
-  #todo_menu{
-    top:-1px;
-  }
-  #Logo4{
-    top: 316px;
-  }
-#Logo2 {
-  display: none;
-}
-#seleccion {
+ #seleccion {
   position: absolute;
   right: 110px;
   top: 155px;
 }
 
 }
+
+
+@media (max-width:755px) {
+#Logo3_1 {
+  position: absolute;
+  right: 279px;
+  top: 308px;
+}
+
+#Logo2_1 {
+  position: absolute;
+  right: 211px;
+  top: 308px;
+}
+
+#Logo4_1 {
+  position: absolute;
+  right: 139px;
+  top: 303px;
+}
+#logo5_1 {
+  position: absolute;
+  top: 396px;
+  right: 259px;
+}
+
+#logo6_1 {
+  position: absolute;
+  top: 388px;
+  right: 175px;
+}
+#all_img{
+    top: 83px;
+}
+
+}
+
 
 
 
