@@ -1,3 +1,11 @@
+@font-face{
+  font-family: "SoberanaSans";
+  src: url("fonts/SoberanaSans-Regular.woff") format("woff");
+}
+@font-face{
+  font-family: "SoberanaTitular";
+  src: url("fonts/SoberanaTitular-Regular.woff") format("woff")
+}
 #head{
   padding: 0;
 }
@@ -5,25 +13,30 @@
   display:none
 }
 #head1{
-  font-size: 70px;
+  font-size: 75px;
   text-align: left;
   font-weight: bolder;
   line-height: 1.21;
+  padding-top:20px;
+  font-family: "SoberanaSans";
+  color: #666666;
 }
 #head2{
-  font-size: 45px;
-  font-weight: bolder;
+  font-size: 35px;
   text-align: left;
   color: white;
-  background-color: #ef5f24;
+  background-color: #fd4f00;
+  font-family: "SoberanaTitular";
 }
 #head3{
   font-size: 45px;
   font-weight: bolder;
-  color: #ef5f24;
+  color: #fd4f00;
+  font-family: "SoberanaSans";
 }
 #content{
   padding: 0px;
+  font-family: "SoberanaSans";
 }
 .circle-dad{
   overflow: hidden;
@@ -50,11 +63,15 @@
   margin-top: 64px;
   font-size: 20px;
 }
+#topic{
+  font-family: "SoberanaTitular";
+}
 #side-menu, #ul-cont{
   padding: 0px;
 }
 #side-menu{
   margin-top:15px;
+  font-family: "SoberanaTitular";
 }
 .list_menu{
   -webkit-border-top-left-radius: 100px;
@@ -80,7 +97,7 @@
   text-align: center;;
   color: #fff;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
   cursor: pointer;
   padding: 0px;
   position: absolute;
