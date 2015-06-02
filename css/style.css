@@ -13,11 +13,12 @@
   display:none
 }
 #head1{
-  font-size: 75px;
+  font-size: 60px;
   text-align: left;
   font-weight: bolder;
   line-height: 1.21;
   padding-top:20px;
+  padding-left: 30px;
   font-family: "SoberanaSans";
   color: #666666;
 }
@@ -28,11 +29,15 @@
   background-color: #fd4f00;
   font-family: "SoberanaTitular";
 }
+#head2 p{
+  padding-left: 30px;
+}
 #head3{
-  font-size: 45px;
+  font-size: 34px;
   font-weight: bolder;
   color: #fd4f00;
   font-family: "SoberanaSans";
+  padding-left: 30px;
 }
 #content{
   padding: 0px;
@@ -60,7 +65,7 @@
 }
 #main_content{
   text-align: justify;
-  margin-top: 64px;
+  margin-top: 0px;
   font-size: 20px;
 }
 #topic{

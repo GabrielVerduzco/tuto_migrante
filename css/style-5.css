@@ -58,13 +58,7 @@
 #one-2{
   top: 220px;
   left: 240px;
-  width: 105px;
-  text-align: center;
-}
-#one-3{
-  top: 345px;
-  left: 265px;
-  width: 90px;
+  width: 95px;
   text-align: center;
 }
 #main_content div{
@@ -155,6 +149,7 @@
   #one-2{
     left: 150px;
     top: 160px;
+    width: 80px;
   }
   #one-3{
     left: 185px;
@@ -169,11 +164,12 @@
 }
 @media (max-width:792px) {
   #head3, #head2{
-    font-size: 40px;
+    font-size: 28px;
   }
   #head1{
-    font-size: 65px;
+    font-size: 55px;
   }
+
   #circulo-1{
     height:500px;
     width: 500px;
@@ -213,7 +209,7 @@
     top: 170px;
   }
   #one-2{
-    left: 120px;
+    left: 135px;
     top: 240px;
   }
   #one-3{
