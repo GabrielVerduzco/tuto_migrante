@@ -9,6 +9,13 @@
   border: 0px solid #000000;
   padding:10px;
 }
+#main_content {
+  margin-top: 27px;
+  font-size: 15px;
+}
+#numbers_table{
+  width:70%;
+}
 #circulo-1{
   -webkit-border-radius: 900px;
   -moz-border-radius: 900px;
@@ -23,25 +30,41 @@
 .b{
   right: -89px;
 }
+
+body{
+   position: relative;
+}
+
+#centro{
+  text-align: center;
+}
 .age{
   right: 116px;
-  top: -434px;
+  top: -357px;
 }
 #size_table{
-  width:100%
+  width:96%
 }
 .primera{
   background-color: #c9caca;
   text-align: center;
 }
-.texto_table p{
+#texto_table p{
   color: white;
 }
+
+
+#agen{
+  position: absolute;
+  top: -3px;
+  right: 511px;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: justify;
-  font-size: 12px;
+  font-size: 10px;
 }
 #circulo-2{
   -webkit-border-radius: 900px;
@@ -93,6 +116,25 @@ table, th, td {
 #main_content{
   margin-top: 40px;
   font-size: 20px;
+}
+
+
+
+@media (max-width:890px) {
+#texto_table p{
+ font-size: 9px;
+}
+
+#numbers_table{
+  width:90%;
+}
+}
+
+
+@media (max-width:1020px) {
+#numbers_table{
+  width:70%;
+}
 }
 @media (max-width:1020px) {
   #circulo-1{
@@ -148,6 +190,26 @@ table, th, td {
   }
 
 }
+
+
+@media (max-width:1123px){
+#agen {
+  position: absolute;
+  top: -3px;
+  right: 463px;
+}
+}
+@media (max-width:1052px){
+#agen {
+  position: absolute;
+  top: -3px;
+  right: 427px;
+}
+}
+
+
+
+
 @media (max-width:938px){
 
   .age{
@@ -211,11 +273,11 @@ table, th, td {
 }
 @media (max-width:792px) {
   #head3, #head2{
-    font-size: 40px;
-  }
-  #head1{
-    font-size: 65px;
-  }
+font-size: 28px;
+}
+#head1{
+font-size: 55px;
+}
   #circulo-1{
     height:500px;
     width: 500px;
@@ -303,5 +365,9 @@ table, th, td {
 @media (max-width:723px) {
   body{
     width:700px;
+  }
+
+  #side-menu{
+      right: -20px;
   }
 }

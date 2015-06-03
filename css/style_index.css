@@ -1,12 +1,3 @@
- #logo1{
-
- 	top: -900px;
-  float: right;
-  right: 108px;
-   position: ;
-
-
- }
 #menu{
 	  position: absolute;
   top: -465px;
@@ -28,6 +19,10 @@ box-shadow: -4px 10px 24px -3px rgba(0,0,0,0.75);
 	
 height: 50px;
 
+}
+
+#l1{
+  right: -272px;
 }
 
 .numbers{
@@ -80,7 +75,7 @@ ul li{
 #logo1{
   position: absolute;
   top: 10px;
-    right: -312px;
+    right: 18px;
 
 }
 

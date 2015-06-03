@@ -5,7 +5,7 @@
 $(document).ready(function(){
 
 
-  $('#side-menu').hover(
+  $('#select_js').hover(
       function() { $('#seleccion').show(); },
       function() { $('#seleccion').hide(); }
     );
