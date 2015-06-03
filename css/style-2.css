@@ -82,20 +82,20 @@ top: -237px;
 
 @media (max-width:1223px){
 #ic4 {
-  
+
 }
 
 #ic1 {
-  
+
 }
 
-  
+
   #ic2{
- 
+
 }
 
 #ic3 {
-  
+
 }
 
 
@@ -111,7 +111,7 @@ top: -237px;
   display: none;
 }
 
-  
+
   #ic2{
  display: none;
 }
@@ -224,7 +224,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 #main_content{
   text-align: justify;
   margin-top:0px;
-  font-size: 16px;
 }
 
 #one-4{
