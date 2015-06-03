@@ -41,27 +41,28 @@ body{
   position: absolute;
 }
 #ic1{
-  position: absolute;
- right: 480px;
-  top: 193px;
+ position: absolute;
+  right: 16px;
+  top: 470px;
 }
 
 #ic2{
-  position: absolute;
-   right: 480px;
-  top: 239px;
+     position: absolute;
+  right: 89px;
+  top: 470px;
 }
 
 #ic3{
-  position: absolute;
-   right: 480px;
-  top: 266px;
+    position: absolute;
+ right: 164px;
+  top: 470px;
+
 }
 
 #ic4{
-  position: absolute;
-   right: 480px;
-  top: 291px;
+    position: absolute;
+  right: 238px;
+  top: 470px;
 }
 
 
@@ -81,28 +82,20 @@ top: -237px;
 
 @media (max-width:1223px){
 #ic4 {
-  position: absolute;
-  right: 463px;
-  top: 316px;
+  
 }
 
 #ic1 {
-  position: absolute;
-  right: 463px;
-  top: 190px;
+  
 }
 
   
   #ic2{
-  position: absolute;
-   right: 463px;
-  top: 239px
+ 
 }
 
 #ic3 {
-  position: absolute;
-  right: 462px;
-  top: 266px;
+  
 }
 
 
@@ -231,7 +224,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 #main_content{
   text-align: justify;
   margin-top:0px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #one-4{
@@ -292,7 +285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
   top: 241px;
 }
   #main_content{
-    font-size: 16px;
+    font-size: 15px;
   }
 
 #one-4 {
@@ -430,7 +423,7 @@ font-size: 55px;
     width: 75px;
   }
   #main_content{
-    margin-top: 64px;
+    margin-top: 0px;
 
   }
   #topic{
@@ -453,7 +446,7 @@ font-size: 55px;
     width: 65px;
   }
   #main_content{
-    font-size: 13px;
+    font-size: 12px;
   }
   #one-5 {
   top: 377px;
