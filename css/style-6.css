@@ -12,9 +12,11 @@
 #main_content {
   margin-top: 23px;
   font-size: 15px;
+  text-align: left;
 }
-#numbers_table{
-  width:70%;
+#numbers_table {
+  width: 32%;
+  text-align: center;
 }
 #circulo-1{
   -webkit-border-radius: 900px;
@@ -63,7 +65,7 @@ body{
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  text-align: justify;
+  text-align: ;
   font-size: 10px;
 }
 #circulo-2{

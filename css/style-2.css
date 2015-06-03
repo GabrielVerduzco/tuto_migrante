@@ -37,31 +37,33 @@ body{
   position: absolute;
 }
 
-#house{
+#house {
   position: absolute;
+  right: 532px;
 }
+
 #ic1{
  position: absolute;
-  right: 16px;
+  right: 116px;
   top: 470px;
 }
 
 #ic2{
      position: absolute;
-  right: 89px;
+  right: 208px;
   top: 470px;
 }
 
 #ic3{
     position: absolute;
- right: 164px;
+ right: 292px;
   top: 470px;
 
 }
 
 #ic4{
     position: absolute;
-  right: 238px;
+  right: 374px;
   top: 470px;
 }
 
@@ -243,11 +245,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 
 }
 
-#imag_num2{
-
-  right: -46px;
-  top: 30px;
-
+#imag_num2 {
+  right: -2px;
+  top: 18px;
 }
 
 @media (max-width:1020px) {
