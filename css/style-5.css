@@ -64,6 +64,9 @@
 #main_content div{
   padding: 0px;
 }
+#img1{
+ padding-bottom: 5px;
+}
 @media (max-width:1020px) {
   #circulo-1{
     height:800px;
