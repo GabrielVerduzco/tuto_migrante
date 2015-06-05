@@ -81,8 +81,8 @@ top: -237px;
 
 @media (max-width:1223px){
 #main_content {
-  text-align: justify;
-  margin-top: 0px;
+  
+ 
   font-size: 17px;
 }
 
@@ -136,7 +136,7 @@ top: -237px;
 }
 
  #main_content {
-    margin-top: 0;
+    
   font-size: 15px;
 }
 
@@ -236,10 +236,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 
 
 
-#main_content{
-  text-align: justify;
-  margin-top:0px;
-}
+
 
 #one-4{
    top: 406px;
@@ -365,7 +362,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
     top: 235px;
   }
   #topic{
-    font-size: 24px;
+    font-size: 23px;
 
   }
   .negras{
@@ -434,10 +431,7 @@ font-size: 55px;
     left: 95px;
     width: 75px;
   }
-  #main_content{
-    margin-top: 0px;
 
-  }
   #topic{
     font-size: 20px;
   }
