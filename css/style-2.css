@@ -9,6 +9,11 @@
   border: 0px solid #000000;
   padding:10px;
 }
+#side-menu {
+  margin-top: 37px;
+ 
+}
+
 
 #comi{
     top: 24px;
@@ -39,7 +44,7 @@ body{
 
 #house {
   position: absolute;
-  right: 532px;
+  right: 557px;
 }
 
 #ic1{
@@ -80,6 +85,14 @@ top: -237px;
   margin-top: 0px;
   font-size: 17px;
 }
+
+}
+
+@media (max-width:1113px){
+#house {
+  display: none;
+}
+
 }
 
 @media (max-width:1223px){
@@ -200,9 +213,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
     top: 83px;
   left: 73px
 }
-#one-2{
-  top: 176px;
-  left: 207px;
+#one-2 {
+  top: 175px;
+  left: 200px;
 }
 #one-3{
   top: 282px;
@@ -230,7 +243,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a2a10', end
 
 #one-4{
    top: 406px;
-  left: 280px;
+  left: 271px;
 }
 
 #one-5{

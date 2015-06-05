@@ -25,6 +25,12 @@ height: 50px;
   right: -272px;
 }
 
+#all_img{
+   top: 20px;
+
+}
+
+
 .numbers{
 
 
@@ -111,13 +117,13 @@ ul li{
 
     #logo5_1{
         position: absolute;
-  top: 504px;
+  top: 532px;
   right: 187px;
 }
 
    #logo6_1{
     position: absolute;
-  top: 475px;
+  top: 500px;
   right: 38px;
 }
 
@@ -187,14 +193,14 @@ ul li{
 
 #logo6_1{
 
-  top:439px;
+  top:463px;
 
 
 }
 
 #logo5_1{
 
-  top:472px;
+  top:489px;
 
 
 }
@@ -255,13 +261,13 @@ ul li{
  }
 #logo5_1{
   position: absolute;
-  top: 443px;
+  top: 462px;
   right: 187px;
 }
 
  #logo6_1{
  position: absolute;
-  top: 422px;
+  top: 440px;
   right: 38px;
 }
 }
@@ -289,13 +295,13 @@ ul li{
  }
 #logo5_1{
   position: absolute;
-  top: 443px;
+  top: 468px;
   right: 187px;
 }
 
  #logo6_1{
  position: absolute;
-  top: 422px;
+  top: 446px;
   right: 38px;
 }
 
@@ -330,13 +336,13 @@ ul li{
 }
 #logo5_1{
   position: absolute;
-  top: 443px;
+  top: 457px;
   right: 187px;
 }
 
  #logo6_1{
  position: absolute;
-  top: 422px;
+  top: 436px;
   right: 38px;
 }
 
@@ -593,13 +599,13 @@ ul li{
 }
 #logo5_1 {
   position: absolute;
-  top: 398px;
+  top: 411px;
   right: 259px;
 }
 
 #logo6_1 {
   position: absolute;
-  top: 380px;
+  top: 393px;
   right: 175px;
 }
 
@@ -643,12 +649,12 @@ ul li{
 
 #logo5_1 {
   position: absolute;
-  top: 356px;
+  top: 371px;
   right: 259px;
   }
   #logo6_1 {
   position: absolute;
-  top: 342px;
+  top: 360px;
   right: 175px;
 }
 #side-menu{
@@ -693,8 +699,8 @@ ul li{
 
 #logo6_1 {
   position: absolute;
-  top: 388px;
-  right: 175px;
+  top: 387px;
+  right: 195px;
 }
 #all_img{
     top: 83px;
