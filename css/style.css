@@ -64,9 +64,9 @@
   cursor: pointer;
 }
 #main_content{
-  text-align: justify;
-  margin-top: 0px;
-  font-size: 20px;
+  text-align: left;
+  margin-top: 12px;
+  font-size: 18px;
 }
 #topic{
   font-family: "SoberanaTitular";

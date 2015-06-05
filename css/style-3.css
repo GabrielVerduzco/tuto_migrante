@@ -67,6 +67,15 @@
   width: 90px;
   text-align: center;
 }
+#img1{
+  margin-top: 50px;
+}
+#img2{
+  margin-top: 35px;
+}
+#img3{
+  margin-top: 50px;
+}
 @media (max-width:1020px) {
   #circulo-1{
     height:800px;
