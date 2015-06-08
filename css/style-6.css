@@ -1,7 +1,7 @@
 #topic{
   background-color: #3366cc;
   color: white;
-  font-size: 23px;
+  font-size: 30px;
   font-weight: bolder;
   border-radius: 174px 0px 0px 174px;
   -moz-border-radius: 174px 0px 0px 174px;
@@ -10,13 +10,9 @@
   padding:10px;
 }
 #main_content {
-  margin-top:12px;
+  margin-top: 23px;
   font-size: 18px;
   text-align: left;
-}
-#all_img{
-   top: 20px;
-
 }
 #numbers_table {
   width: 32%;
@@ -58,11 +54,14 @@ body{
 #texto_table p{
   color: white;
 }
+
+
 #agen{
   position: absolute;
   top: -3px;
-  right: 511px;
+  right: 556px;
 }
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -117,6 +116,17 @@ table, th, td {
   text-align: center;
 }
 
+@media (max-width:890px) {
+#texto_table p{
+ font-size: 9px;
+}
+
+#numbers_table{
+  width:90%;
+}
+}
+
+
 @media (max-width:1020px) {
 #numbers_table{
   width:70%;
@@ -165,14 +175,19 @@ table, th, td {
     font-size: 15px;
   }
   #topic{
-    font-size:21px;
+    font-size:25px;
   }
 }
+
 @media (max-width:1002px){
+
   .age{
     display: none;
   }
+
 }
+
+
 @media (max-width:1123px){
 #agen {
   position: absolute;
@@ -181,16 +196,22 @@ table, th, td {
 }
 }
 @media (max-width:1052px){
-  #agen {
-    position: absolute;
-    top: -3px;
-    right: 427px;
-  }
+#agen {
+  position: absolute;
+  top: -3px;
+  right: 427px;
 }
+}
+
+
+
+
 @media (max-width:938px){
+
   .age{
     display: none;
   }
+
   #circulo-1{
     height:600px;
     width: 600px;
@@ -235,34 +256,24 @@ table, th, td {
     top: 250px;
   }
   #topic{
-    font-size: 18px;
+    font-size: 20px;
   }
   #main_content{
     font-size: 13px;
-    margin-top:12px;
+    margin-top:30px;
   }
   #size_table{
     width: 94%;
   }
-}
-@media (max-width:890px) {
-  #texto_table p{
-    font-size: 9px;
-  }
-  #numbers_table{
-    width:90%;
-  }
-  #topic{
-    font-size: 16px;
-  }
+
 }
 @media (max-width:792px) {
   #head3, #head2{
-    font-size: 28px;
-  }
-  #head1{
-    font-size: 55px;
-  }
+font-size: 28px;
+}
+#head1{
+font-size: 55px;
+}
   #circulo-1{
     height:500px;
     width: 500px;
@@ -292,10 +303,10 @@ table, th, td {
     width: 75px;
   }
   #main_content{
-    margin-top: 12px;
+    margin-top: 30px;
   }
   #topic{
-    font-size: 16px;
+    font-size: 18px;
   }
   .opt-menu{
     font-size: 14px;
@@ -319,15 +330,17 @@ table, th, td {
       right: 44px;
   }
 }
+
+
 @media (max-width:757px) {
+
   table{
     right:11px;
   }
-  #topic{
-    font-size: 15px;
   }
-}
-@media (max-width:716px) {
+
+  @media (max-width:716px) {
+
   #btn-inicio{
     right:-15px;
   }
@@ -337,14 +350,19 @@ table, th, td {
 
   }
   .circle-dad{
-    right: 16px;
-    top: 52px;
+      right: 16px;
+  top: 52px;
+
+
   }
-}
+  }
+
+
 @media (max-width:723px) {
   body{
     width:700px;
   }
+
   #side-menu{
       right: -20px;
   }
