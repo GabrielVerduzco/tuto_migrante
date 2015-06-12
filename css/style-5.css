@@ -1,5 +1,5 @@
 #topic{
-  background-color: #009933;
+  background-color: #2f963b;
   color: white;
   font-size: 30px;
   font-weight: bolder;
@@ -67,6 +67,13 @@
 #img1{
  padding-bottom: 5px;
 }
+#div-1{
+  height: 12px;
+  width: 220px;
+  top: 190px;
+  left: 130px;
+  background-color: #fff;
+}
 @media (max-width:1020px) {
   #circulo-1{
     height:800px;
@@ -111,6 +118,12 @@
   }
   #topic{
     font-size:25px;
+  }
+  #div-1{
+    height: 10px;
+    width: 257px;
+    top: 149px;
+    left: 62px;
   }
 }
 @media (max-width:938px){
@@ -163,6 +176,11 @@
   }
   #main_content{
     font-size: 14px;
+  }
+  #div-1{
+    width: 280px;
+    top: 149px;
+    left: 0px;
   }
 }
 @media (max-width:792px) {
@@ -221,6 +239,9 @@
   }
   #main_content{
     font-size: 13px;
+  }
+  #div-1{
+    top: 225px;
   }
 }
 
