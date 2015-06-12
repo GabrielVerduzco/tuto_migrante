@@ -1,7 +1,7 @@
 #topic{
   background-color: #3366cc;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bolder;
   border-radius: 174px 0px 0px 174px;
   -moz-border-radius: 174px 0px 0px 174px;
@@ -175,7 +175,7 @@ table, th, td {
     font-size: 15px;
   }
   #topic{
-    font-size:25px;
+    font-size:20px;
   }
 }
 
@@ -256,7 +256,7 @@ table, th, td {
     top: 250px;
   }
   #topic{
-    font-size: 20px;
+    font-size: 17px;
   }
   #main_content{
     font-size: 13px;
@@ -306,7 +306,7 @@ font-size: 55px;
     margin-top: 30px;
   }
   #topic{
-    font-size: 18px;
+    font-size: 15px;
   }
   .opt-menu{
     font-size: 14px;
