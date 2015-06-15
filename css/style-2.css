@@ -13,13 +13,6 @@
   margin-top: 37px;
  
 }
-.opt-menu2{
-  color: white;
-  position: absolute;
-  font-weight: bolder;
-  z-index: 1;
-  font-size: 20px;
-}
 
 
 #comi{
@@ -329,7 +322,7 @@ top: -237px;
   text-align: center;
   height: 17px;
 }
-.opt-menu2{
+.opt-menu{
   font-size: 17px
 }
 #one-4x {
@@ -382,7 +375,7 @@ top: -237px;
     left: 150px;
     width: 99px;
   }
-  .opt-menu2{
+  .opt-menu{
     font-size: 16px;
   }
   #one-2{
@@ -448,12 +441,12 @@ top: -237px;
   }
   }
 @media (max-width:792px) {
- #head3, #head2{
-font-size: 28px;
-}
-#head1{
-font-size: 55px;
-}
+ #head3, #head1{
+    font-size: 25px;
+  }
+  #head2{
+    font-size: 50px;
+  }
   #circulo-1{
     height:500px;
     width: 500px;
@@ -486,7 +479,7 @@ font-size: 55px;
   #topic{
     font-size: 20px;
   }
-  .opt-menu2{
+  .opt-menu{
     font-size: 14px;
   }
   #one-1{
@@ -519,7 +512,7 @@ font-size: 55px;
   top: 268px;
   width: 65px;
 }
-.opt-menu2{
+.opt-menu{
   font-size: 11px;
 }
 
