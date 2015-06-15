@@ -8,35 +8,36 @@
 }
 #head{
   padding: 0;
+  text-align: center;
 }
 #two, #three{
   display:none
 }
 #head1{
-  font-size: 60px;
-  text-align: left;
+  font-size: 25px;
   font-weight: bolder;
   line-height: 1.21;
   padding-top:20px;
   padding-left: 30px;
-  font-family: "SoberanaSans";
   color: #666666;
+  font-family: "SoberanaTitular";
 }
 #head2{
-  font-size: 35px;
-  text-align: left;
+  font-size: 60px;
+  font-weight: bolder;
   color: white;
   background-color: #fd4f00;
-  font-family: "SoberanaTitular";
+  font-family: "SoberanaSans";
+  padding-top: 1%;
 }
 #head2 p{
   padding-left: 30px;
 }
 #head3{
-  font-size: 34px;
+  font-size: 20px;
   font-weight: bolder;
-  color: #fd4f00;
-  font-family: "SoberanaSans";
+  color: #666666;
+  font-family: "SoberanaTitular";
   padding-left: 30px;
 }
 #content{

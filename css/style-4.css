@@ -85,6 +85,9 @@
   left: 130px;
   background-color: #fff;
 }
+.bracket{
+  margin-top: 4%;
+}
 @media (max-width:1020px) {
   #circulo-1{
     height:800px;
@@ -195,11 +198,11 @@
   }
 }
 @media (max-width:792px) {
-  #head3, #head2{
-    font-size: 28px;
+  #head3, #head1{
+    font-size: 25px;
   }
-  #head1{
-    font-size: 55px;
+  #head2{
+    font-size: 50px;
   }
   #circulo-1{
     height:500px;

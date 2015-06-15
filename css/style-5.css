@@ -50,6 +50,9 @@
   left: 40px;
   bottom: 45px;
 }
+.space{
+  margin-top: 4%;
+}
 #one-1{
   top: 100px;
   left: 125px;
@@ -182,15 +185,17 @@
     top: 149px;
     left: 0px;
   }
+  .space{
+    margin-top: 3%;
+  }
 }
 @media (max-width:792px) {
-  #head3, #head2{
-    font-size: 28px;
+  #head3, #head1{
+    font-size: 25px;
   }
-  #head1{
-    font-size: 55px;
+  #head2{
+    font-size: 50px;
   }
-
   #circulo-1{
     height:500px;
     width: 500px;
@@ -242,6 +247,9 @@
   }
   #div-1{
     top: 225px;
+  }
+  .space{
+    margin-top: 2%;
   }
 }
 
