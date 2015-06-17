@@ -80,11 +80,11 @@
 .bracket{
   margin-top: 4%;
 }
-#im-z{
-  padding: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-}
+/*#im-z{*/
+  /*padding: 0;*/
+  /*margin-left: 15px;*/
+  /*margin-right: 15px;*/
+/*}*/
 @media (max-width:1020px) {
   #circulo-1{
     height:800px;
