@@ -13,8 +13,11 @@
   margin-top: 37px;
  
 }
-
-
+#franja{
+  position: absolute;
+  right: -123px;
+  top: 492px;
+}
 #comi{
     top: 24px;
 }
@@ -323,7 +326,7 @@ top: -237px;
   height: 17px;
 }
 .opt-menu{
-  font-size: 17px
+  font-size: 15px
 }
 #one-4x {
   top: 136px;
@@ -376,7 +379,7 @@ top: -237px;
     width: 99px;
   }
   .opt-menu{
-    font-size: 16px;
+    font-size: 12px;
   }
   #one-2{
     left: 175px;
@@ -398,7 +401,7 @@ top: -237px;
   }
 
   #one-4 {
-  top: 318px;
+  top: 324px;
   left: 197px;
 }
 #one-5 {
